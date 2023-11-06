@@ -1,0 +1,89 @@
+/* Your styles here */
+/*bg blu grande #222F3F 
+bg blu piccolo #364759
+bg arancione #F56600
+bg pagina #E9EDEE
+colore txt blu #438F99*/
+body{
+    font-family: 'Arial', 'Elvetica' ,sans-serif;
+    color:white;
+    background-color: #E9EDEE;
+    
+}
+
+header {
+    background-color:  #222F3F ;
+    background-size: cover;
+    padding: 0.7rem;
+    padding-left: 0.9rem;;
+    margin: auto;
+}
+
+header img{
+    width: 10%;
+}
+
+main { 
+    background-size: cover;
+    margin: 16px;
+    border: 1px;
+
+}
+
+.ciao{
+    background-color: #364759;
+}
+
+.zero  p{
+    background-color:  #F56600 ;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+}
+
+ .prima {
+    padding: 2.6rem;
+    background-image: url('../images/bg-image.png');
+    text-align: center;
+}
+
+.seconda{
+    padding: 1px;
+    background-color: white;
+}
+.seconda p:first-of-type{
+    color: black;
+}
+.seconda p:last-of-type{
+    color:#438F99;
+}
+
+.seconda img {
+    margin: 5px;
+    display: inline-block;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4%;
+    box-shadow: 5px grey;
+}
+
+.terza{
+    width: 50px;
+}
+
+
+footer {
+        background-color:  #222F3F ;
+        background-size: auto;
+        text-align: center;
+        padding: 0.7rem;
+        padding-left: 0.9rem;;
+        margin: aut
+}
+
+
+footer img{
+    padding: 2rem;
+    width:10%;
+}
