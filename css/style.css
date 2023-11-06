@@ -4,19 +4,21 @@ bg blu piccolo #364759
 bg arancione #F56600
 bg pagina #E9EDEE
 colore txt blu #438F99*/
+
+html{
+    background-size: cover;
+
+}
 body{
     font-family: 'Arial', 'Elvetica' ,sans-serif;
-    color:white;
     background-color: #E9EDEE;
     
 }
 
 header {
     background-color:  #222F3F ;
-    background-size: cover;
     padding: 0.7rem;
-    padding-left: 0.9rem;;
-    margin: auto;
+    width: 100%;
 }
 
 header img{
@@ -24,13 +26,12 @@ header img{
 }
 
 main { 
-    background-size: cover;
     margin: 16px;
-    border: 1px;
+    border: 1rem;
 
 }
 
-.ciao{
+.ciao a{
     background-color: #364759;
 }
 
@@ -42,48 +43,78 @@ main {
 }
 
  .prima {
+    color: white;
     padding: 2.6rem;
     background-image: url('../images/bg-image.png');
     text-align: center;
 }
 
 .seconda{
-    padding: 1px;
+    padding-top: 2rem;
     background-color: white;
-}
-.seconda p:first-of-type{
-    color: black;
-}
-.seconda p:last-of-type{
-    color:#438F99;
+    color: black
 }
 
 .seconda img {
-    margin: 5px;
+    margin: 5px; 
     display: inline-block;
     width: 300px;
+    height: 200px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 4%;
-    box-shadow: 5px grey;
+    box-shadow: 5px 5px 5px grey;
+    object-fit: cover;
 }
 
-.terza{
-    width: 50px;
+.terza img{
+    width: 100%;
+    padding-top: 2rem;
+}
+.terza p{
+    text-align: center;
+    display: inline-block;
+
+}
+.terza p:last-of-type , .quarta p:last-of-type {
+    color:#438F99;
+    text-align:center;
+
+}
+.quarta p{
+    text-align: center;
+    display: inline-block;
+}
+.quarta img{
+    width: 100%;
 }
 
+aside {
+    background-color: #364759;
+    color: white;
+    padding: 0.7rem;
+    text-align: center;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+}
+
+aside a:visited{
+    color:white;
+}
 
 footer {
         background-color:  #222F3F ;
-        background-size: auto;
         text-align: center;
         padding: 0.7rem;
-        padding-left: 0.9rem;;
-        margin: aut
-}
+        margin: auto;
+        width: 100%;
+    }
+
 
 
 footer img{
     padding: 2rem;
     width:10%;
 }
+
